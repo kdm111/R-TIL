@@ -101,7 +101,7 @@ void main(void) {
     //printf("ps2 : %s\n", ps2); 당연히 주소값에 들어갈 수 없음.
 */
 
-
+/*
     char ani[10];
     char why[20];
     printf("animal : ");
@@ -128,15 +128,12 @@ void main(void) {
     fgets(ani, sizeof(ani), stdin); 
     ani[strlen(ani)-1] = '\0';
 
-
-
     printf("why : ");
     fgets(why, sizeof(why), stdin);
     why[strlen(why)-1] = '\0';
-    
 
     //printf("%s is %s\n", ani, why);
-    
+
     // puts : puts는 개행문자를 자동으로 포함함.
     // 제거 방법 없음.
     //puts(ani);
@@ -148,5 +145,6 @@ void main(void) {
     fputs(ani, stdout);
     fputs(" is ", stdout);
     fputs(why, stdout);
-
+*/
+    
 }
